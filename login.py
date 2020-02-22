@@ -1,4 +1,4 @@
-def view(func):
+def view(view_func):
 	def index(*args, **kwargs)
-	    return func(*args, **kwargs)
+	    return view_func(*args, **kwargs)
 	return index
